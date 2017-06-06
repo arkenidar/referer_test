@@ -1,5 +1,5 @@
 <?php
-
+/*
 function endsWith($haystack, $needle){
     $length = strlen($needle);
     if ($length == 0) {
@@ -8,8 +8,10 @@ function endsWith($haystack, $needle){
 
     return (substr($haystack, -$length) === $needle);
 }
-
-if(endsWith(@$_SERVER['HTTP_REFERER'], 'prima.php')){
+*/
+//$condition = endsWith(@$_SERVER['HTTP_REFERER'], 'prima.php');
+$condition = @$_REQUEST['referer'] == 'prima.php';
+if($condition){
     header('Location: '.'http://www.scienzaoggi.it/referer_test/referer.php');
 }
 ?>
