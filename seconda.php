@@ -6,7 +6,7 @@ if(referer.endsWith('prima.php')){
     alert('redirect su sito esterno')
     window.location='http://www.scienzaoggi.it/referer_test/referer.php'
 }else{
-    aler('viene mantenuto su questa pagina (no redirect)')
+    alert('viene mantenuto su questa pagina (no redirect)')
 }
 </script>
 seconda
