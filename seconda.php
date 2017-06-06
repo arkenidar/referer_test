@@ -14,6 +14,7 @@ if(endsWith(@$_SERVER['HTTP_REFERER'], 'prima.php')){
 }
 ?>
 <script>
+/*
 var referer='<?php echo @$_SERVER['HTTP_REFERER']?>'
 alert('referer: ' + referer)
 if(referer.endsWith('prima.php')){
@@ -23,5 +24,6 @@ if(referer.endsWith('prima.php')){
 }else{
     alert('viene mantenuto su questa pagina (no redirect)')
 }
+*/
 </script>
 seconda
